@@ -1,7 +1,7 @@
 {
-  "name": "TicketPass - Mobile Ticket Generator",
-  "short_name": "TicketPass",
-  "description": "Offline Mobile Ticket Generator PWA",
+  "name": "Netflix Premium Mod",
+  "short_name": "Netflix Mod",
+  "description": "Netflix Premium Mod Experience",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",

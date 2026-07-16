@@ -9,7 +9,7 @@ const __dirname = path.dirname(__filename);
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // Using relative base for better compatibility
+  base: '/Netflix-Premium-Mod/', // Fixed for GitHub Pages subfolder
   plugins: [react(), tailwindcss()],
   resolve: {
     alias: {

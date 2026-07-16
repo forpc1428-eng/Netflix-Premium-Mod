@@ -4,6 +4,7 @@
  */
 
 export interface AppSettings {
+  siteName: string;
   overallScale: number;
   mobilePadding: number;
 }
@@ -52,6 +53,7 @@ export interface SiteConfig {
 export const SITE_CONFIG: SiteConfig = {
   // GLOBAL SETTINGS
   settings: {
+    siteName: 'Netflix Premium Mod',
     overallScale: 1.0,
     mobilePadding: 2,
   },

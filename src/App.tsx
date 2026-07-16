@@ -1,4 +1,4 @@
-import { useState, useCallback, useRef } from 'react';
+import { useState, useCallback, useRef, useEffect } from 'react';
 import { SITE_CONFIG } from './siteConfig';
 
 interface SpammedLogo {
@@ -11,6 +11,12 @@ interface SpammedLogo {
 
 export default function App() {
   const cfg = SITE_CONFIG;
+
+  // Set the site name from config
+  useEffect(() => {
+    document.title = cfg.settings.siteName;
+  }, [cfg.settings.siteName]);
+
   const [logos, setLogos] = useState<SpammedLogo[]>([]);
   const clickCount = useRef(0);
   const lastClickTime = useRef(0);
