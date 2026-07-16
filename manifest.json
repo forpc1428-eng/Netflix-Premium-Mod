@@ -1,7 +1,7 @@
 {
-  "name": "Netflix Premium",
-  "short_name": "Netflix",
-  "description": "Netflix Premium Mod",
+  "name": "Netflix Premium Mod",
+  "short_name": "Netflix Mod",
+  "description": "Netflix Premium Mod Experience",
   "start_url": "/",
   "display": "standalone",
   "orientation": "portrait",
