@@ -62,7 +62,7 @@ export const SITE_CONFIG: SiteConfig = {
   background: {
     siteColor: '#f0f0f0',
     useMobileFullHeight: true,
-    path: '/images/123.jpg',
+    path: 'images/123.jpg',
   },
 
   // MAIN CONTAINER SETTINGS
@@ -74,7 +74,7 @@ export const SITE_CONFIG: SiteConfig = {
 
   // LOGO SETTINGS
   logo: {
-    path: '/images/456.jpeg',
+    path: 'images/456.jpeg',
     width:200,
     height: 200,
     zoomMin: 1,
@@ -92,6 +92,6 @@ export const SITE_CONFIG: SiteConfig = {
 
   // AUDIO SETTINGS
   audio: {
-    songPath: '/audio/bg-music.mp3', // Placeholder path
+    songPath: 'audio/bg-music.mp3', // Placeholder path
   }
 };
