@@ -3,10 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://forpc1428-eng.github.io/rrl-ticket-gen/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+    "deploy-fix": "npm run build && cd dist && git init && git add . && git commit -m \"deploy\" && git branch -M main && git push -f https://github.com/forpc1428-eng/rrl-ticket-gen.git main:gh-pages && cd .."
   },
   "dependencies": {
     "@types/uuid": "^10.0.0",
